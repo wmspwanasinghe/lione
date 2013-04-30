@@ -32,6 +32,8 @@ public class frm_wmp extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 0, 153));
         jLabel1.setText("nimal");
 
         jButton1.setText("Press");
@@ -73,6 +75,7 @@ public class frm_wmp extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     jTextField1.setText("nimal");
+    jLabel1.setText("Nimal Weerasena");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
